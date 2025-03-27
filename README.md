@@ -90,7 +90,7 @@ This project is licensed under the **MIT License**.
   - **Aditya Sahani**  
     [LinkedIn](https://www.linkedin.com/in/adityasahani443/) | [GitHub](https://github.com/Aditya-en) 
   - **Pallavi Chahar**  
-    [LinkedIn](https://www.linkedin.com/in/pallavichahar) | [GitHub](https://github.com/Pallavi2005-creator)) 
+    [LinkedIn](https://www.linkedin.com/in/pallavichahar) | [GitHub](https://github.com/Pallavi2005-creator)
 
 
 🎵 *Enjoy AI-powered music generation!* 🎵
