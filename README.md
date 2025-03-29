@@ -66,6 +66,20 @@ Frontend is available at **http://localhost:5173**.
 | `POST` | `/generate-drums` | Generates a drum pattern |
 | `GET` | `/download/{format}` | Downloads generated music in MIDI/WAV/MP3 format |
 
+## Problems Faced
+- **Model Training**: The model initially failed to learn the data and produced unsatisfactory results despite various architectural changes.
+- **Model Generalization**: Poor generalization in early training; applied techniques like dropout and AdamW to improve performance.
+- **React UI Issues**: Encountered inconsistent state management, making the frontend non-functional.
+- **Frontend-Backend Integration**: Faced challenges in connecting the React frontend with the FastAPI backend.
+- **File Type Conversions**: Difficulties in converting MIDI to WAV and MP3 using soundfont files on the backend.
+
+## Future Plans
+- Enhance the model’s training strategy for better music quality.
+- Improve UI/UX for a more seamless user experience.
+- Implement real-time music preview functionality.
+- Expand model capabilities to generate multiple instruments beyond piano and drums.
+- Deploy the project on AWS or Google Cloud for wider accessibility.
+
 ## Roadmap
 - ✅ Implement LSTM-based melody and drum generation models.
 - ✅ Develop FastAPI backend and React frontend.
@@ -81,7 +95,6 @@ Frontend is available at **http://localhost:5173**.
 ## License
 This project is licensed under the **MIT License**.
 
-
 ## Acknowledgments
 
 - **Contributors:**
@@ -92,5 +105,6 @@ This project is licensed under the **MIT License**.
   - **Pallavi Chahar**  
     [LinkedIn](https://www.linkedin.com/in/pallavichahar) | [GitHub](https://github.com/Pallavi2005-creator)
 
-
 🎵 *Enjoy AI-powered music generation!* 🎵
+
+
